@@ -1,0 +1,20 @@
+package List_3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Collection doesn't care about index. It's all about adding, removing and so on. 
+ * If you need the index in your application, use List interface.
+ *
+ */
+public class ListDemo {
+	public static void show() {
+		List<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
+		list.add(0, "!");
+		System.out.println(list);
+	}
+}

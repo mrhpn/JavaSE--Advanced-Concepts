@@ -1,0 +1,11 @@
+package List_3;
+
+/**
+ * Collection doesn't care about index. It's all about adding, removing and so on. 
+ * If you need the index in your application, use List interface.
+ * @author GIC
+ *
+ */
+public class ListDemo {
+
+}
