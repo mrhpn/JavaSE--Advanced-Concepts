@@ -1,0 +1,6 @@
+package iterable_interface_1;
+
+public class GenericList<T> {
+	private T[] items = (T[]) new Object[10];
+	
+}

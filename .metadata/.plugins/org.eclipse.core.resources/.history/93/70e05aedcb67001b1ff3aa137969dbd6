@@ -1,0 +1,44 @@
+package iterable_interface_1;
+
+import java.util.Iterator;
+
+public class GenericList<T> implements Iterable<T> {
+	private T[] items = (T[]) new Object[10];
+	private int count;
+	
+	public void add(T item) {
+		items[count++] = item;
+	}
+	
+	public T get(int index) {
+		return items[index];
+	}
+
+	@Override
+	public Iterator<T> iterator() {
+		return null;
+	}
+	
+	private class ListIterator implements Iterator<T> {
+		private T list;
+		
+		public ListIterator(T list) {
+			this.list = list;
+		}
+
+		@Override
+		public boolean hasNext() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		@Override
+		public T next() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+	}
+	
+	
+}
