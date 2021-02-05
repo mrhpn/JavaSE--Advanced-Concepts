@@ -1,0 +1,11 @@
+package collections_2;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionsDemo {
+	public static void show() {
+		// ArrayList is one of the classes that implements the Collection interface.
+		Collection<String> collection = new ArrayList<>();
+	}
+}

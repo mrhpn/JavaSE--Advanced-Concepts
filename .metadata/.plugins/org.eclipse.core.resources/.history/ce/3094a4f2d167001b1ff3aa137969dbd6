@@ -1,0 +1,7 @@
+package collections_2;
+
+public class CollectionsDemo {
+	public static void show() {
+		Collection<String> collection = new ArrayList<>();
+	}
+}
