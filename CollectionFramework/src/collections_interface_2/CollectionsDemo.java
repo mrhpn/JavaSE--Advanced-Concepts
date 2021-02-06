@@ -1,0 +1,52 @@
+package collections_interface_2;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+/**
+ * Documentation: Collection - https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
+ *
+ */
+public class CollectionsDemo {
+	public static void show() {
+		// ArrayList is one of the classes that implements the Collection interface.
+		Collection<String> collection = new ArrayList<>();
+		
+		collection.add("a");
+		collection.add("b");
+		collection.add("c");
+		
+		/**
+		 *  Collection interface implements the iterable interface and so they can be iterable.
+		 */
+		// Output: abc
+		for(var item: collection) System.out.print(item);
+		
+		// Output: [a, b, c]
+		System.out.print(collection);
+		
+		// Output: [a, b, c, d, e, f]
+		Collections.addAll(collection, "d", "e", "f");
+		System.out.print(collection);
+		
+		// Output: 6
+		System.out.println(collection.size());
+		
+		// Output: [b, c, d, e, f]
+		collection.remove("a");
+		System.out.println(collection);
+		
+		// Converting collection to a regular array
+		var objectArray = collection.toArray();
+		var stringArray = collection.toArray(new String[0]); // use specific size of array or 0
+		
+		// Comparing two collections
+		Collection<String> other = new ArrayList<>();
+		other.addAll(collection);
+		System.out.println(collection == other); // Output: false, comparing the two different references
+		System.out.println(collection.equals(other));// Output: true, comparing the two contents
+		
+		
+	}
+}
