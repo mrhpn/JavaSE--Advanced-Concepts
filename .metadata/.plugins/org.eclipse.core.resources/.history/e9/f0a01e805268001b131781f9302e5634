@@ -1,0 +1,7 @@
+package queue_6;
+
+public class QueueDemo {
+	public static void show() {
+		
+	}
+}

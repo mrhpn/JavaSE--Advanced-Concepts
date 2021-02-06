@@ -1,0 +1,26 @@
+package queue_6;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+public class QueueDemo {
+	public static void show() {
+		Queue<String> queue = new ArrayDeque<>();
+		
+		// Adding elements: when queue size is full, `add` throws exception while `offer` returns false
+		queue.add("c");
+		queue.add("a");
+		queue.add("b");
+		queue.offer("d");
+		
+		// Getting the first element of a queue: when queue is empty, `element` throws exception while `peed` returns null 
+		var front = queue.peek();
+		var front1 = queue.element();
+		System.out.println(front); // Output: c
+		System.out.println(front1); // Output: c
+		
+		var front2 = queue.remove();
+		System.out.println(front2); // Output: c
+		System.out.println(queue); // Output: [a, b, d]
+	}
+}
