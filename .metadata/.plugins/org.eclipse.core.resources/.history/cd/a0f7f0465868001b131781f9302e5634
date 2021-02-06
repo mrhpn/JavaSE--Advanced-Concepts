@@ -1,0 +1,11 @@
+package map_interface_8;
+
+/**
+ * We have O(n) when searching object in a list.
+ * But when we use Map (HashMap), it becomes O(1).
+ * @author GIC
+ *
+ */
+public class MapDemo {
+
+}

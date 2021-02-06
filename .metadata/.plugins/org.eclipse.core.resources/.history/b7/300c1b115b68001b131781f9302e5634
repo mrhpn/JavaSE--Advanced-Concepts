@@ -1,0 +1,59 @@
+package map_interface_8;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * We have O(n) when searching object in a list.
+ * But when we use Map (HashMap), it becomes O(1). 
+ * 
+ * It is called Map because it maps key to value. ***
+ * It is called Dictionary because it maps words to its meaning. ***
+ * 
+ * Different languages have different names but it is always the same concept: HashMap.
+ * 1) Java: Maps
+ * 2) C#: Dictionary
+ * 3) Python: Dictionary
+ * 4) JavaScript: Objects, var person = { name = "a" }
+ *
+ * Map interface is NOT an iterable interface.
+ */
+public class MapDemo {
+	public static void show() {
+		var c1 = new Customer("a", "e1");
+		var c2 = new Customer("b", "e2");
+
+		Map<String, Customer> map = new HashMap<>(); // Map interface has many different implementations. But HashMap is the most used one.
+		map.put(c1.getEmail(), c1);
+		map.put(c2.getEmail(), c2);
+		
+		// Getting item
+		var customer = map.get("e1"); // Instead of using a loop to iterate over a list, we call get method to get value from hash map. Extramely fast!!
+		System.out.println(customer); // Output: a
+		
+		// Getting item or return default value
+		var unknown = new Customer("Unknown Customer", "");
+		var customer1 = map.getOrDefault("e10", unknown); // Find and get e10. If there is not e10, return default value, in this case `Unknown`.
+		System.out.println(customer1); // Output: Unknown Customer
+		
+		// Check existance
+		var exists = map.containsKey("e10");
+		System.out.println(exists); // Output: false
+		
+		// Replacing item
+		map.replace("e1", new Customer("a++", "e1"));
+		System.out.println(map); // Output: {e1=a++, e2=b}
+		
+		// Looping map (1)
+		for (var key : map.keySet()) // Map is not an iterable interface but `keySet()` returns iterable object. 
+			// System.out.println(key); // Output: e1 e2
+		
+		// Looping map (2)
+		for (var entry : map.entrySet()) {
+			System.out.println(entry); // Output:  e1=a++ e2=b
+			System.out.println(entry.getKey()); // Output: e1 e2
+			System.out.println(entry.getValue()); // Output: a++ b
+			
+		}
+	}
+}
