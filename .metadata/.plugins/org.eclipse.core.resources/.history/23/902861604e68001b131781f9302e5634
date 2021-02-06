@@ -1,0 +1,18 @@
+package comparable_interface_4;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<Customer> customers = new ArrayList<>();
+		customers.add(new Customer("Ba"));
+		customers.add(new Customer("Caung"));
+		customers.add(new Customer("Aung"));
+		Collections.sort((List<Customer>) customers);
+		System.out.println(customers);
+	}
+
+}

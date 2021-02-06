@@ -1,0 +1,7 @@
+package comparable_interface_4;
+
+public class Customer {
+	private String a = "a";
+	private String b = "b";
+	
+}

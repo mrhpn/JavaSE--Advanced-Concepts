@@ -1,0 +1,9 @@
+package comparable_interface_4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<Customer> customers = new ArrayList<>();
+	}
+
+}
