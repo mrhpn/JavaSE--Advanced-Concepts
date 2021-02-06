@@ -1,0 +1,16 @@
+package comparator_interface_5;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<Customer> customers = new ArrayList<>();
+		customers.add(new Customer("b"));
+		customers.add(new Customer("c"));
+		customers.add(new Customer("a"));
+
+	}
+
+}

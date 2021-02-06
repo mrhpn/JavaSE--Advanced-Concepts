@@ -1,0 +1,12 @@
+package comparator_interface_5;
+
+public class Customer implements Comparable<Customer> {
+	private String name;
+
+	public Customer(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+}
