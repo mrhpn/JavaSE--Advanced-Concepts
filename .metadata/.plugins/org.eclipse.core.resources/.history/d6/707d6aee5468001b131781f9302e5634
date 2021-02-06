@@ -1,0 +1,15 @@
+package set_interface_7;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * `Set` is used when we want to store the unique list of items.
+ * It does not grauntee the order of items, but uniqueness.
+ *
+ */
+public class SetDemo {
+	public static void show() {
+		Set<String> set = new HashSet<>(); // HashSet is the one of the implementations of Set. 
+	}
+}

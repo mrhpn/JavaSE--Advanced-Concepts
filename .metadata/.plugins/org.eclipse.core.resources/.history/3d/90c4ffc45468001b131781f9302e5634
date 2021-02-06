@@ -1,0 +1,12 @@
+package set_interface_7;
+
+/**
+ * `Set` is used when we want to store the unique list of items.
+ * @author GIC
+ *
+ */
+public class SetDemo {
+	public static void show() {
+		
+	}
+}
