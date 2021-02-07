@@ -1,0 +1,18 @@
+Java Build-in Functional Interfaces
+-----
+Java provides many predefined build-in functional interfaces to perform common tasks.
+They are declared in the package: java.util.function.
+
+Documentation: https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+-----
+
+All of these functional interfaces are fall into 4 parts:
+1) Consumer
+2) Supplier
+3) Function
+4) Predicate
+
+1) Consumer - takes a single argument and returns no result - void consume(arg)
+2) Supplier - takes no input and returns a value - obj supply()
+3) Function - maps a value into a different value - obj map(arg)
+4) Predicate - takes a object and checks it satisfies some criteria - bool test(condition)
