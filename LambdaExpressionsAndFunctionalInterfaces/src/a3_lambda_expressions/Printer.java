@@ -1,4 +1,4 @@
-package method_reference_5;
+package a3_lambda_expressions;
 
 /**
  * Functional Interface 

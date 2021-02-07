@@ -1,4 +1,4 @@
-package anonymous_inner_class_2;
+package a3_lambda_expressions;
 
 /**
  * Functional Interface

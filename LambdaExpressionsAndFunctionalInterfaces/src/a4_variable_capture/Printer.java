@@ -1,4 +1,4 @@
-package lambda_expressions_3;
+package a4_variable_capture;
 
 /**
  * Functional Interface 

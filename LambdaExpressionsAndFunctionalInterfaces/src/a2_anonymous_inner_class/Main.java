@@ -1,4 +1,4 @@
-package functional_interface_1;
+package a2_anonymous_inner_class;
 
 /**
  * Functional Interface

@@ -1,4 +1,4 @@
-package anonymous_inner_class_2;
+package a2_anonymous_inner_class;
 
 public class LambdasDemo {
 	public static void show() {

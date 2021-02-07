@@ -1,4 +1,4 @@
-package lambda_expressions_3;
+package a1_functional_interface;
 
 /**
  * Functional Interface

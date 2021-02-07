@@ -1,4 +1,4 @@
-package variable_capture_4;
+package a5_method_reference;
 
 /**
  * Functional Interface 

@@ -1,4 +1,4 @@
-package variable_capture_4;
+package a4_variable_capture;
 
 public class Main {
 

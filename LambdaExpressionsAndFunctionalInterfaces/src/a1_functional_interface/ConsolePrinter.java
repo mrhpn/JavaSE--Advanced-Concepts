@@ -1,4 +1,4 @@
-package functional_interface_1;
+package a1_functional_interface;
 
 public class ConsolePrinter implements Printer {
 

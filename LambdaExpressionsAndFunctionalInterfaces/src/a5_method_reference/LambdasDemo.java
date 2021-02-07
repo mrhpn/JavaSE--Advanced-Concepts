@@ -1,4 +1,4 @@
-package method_reference_5;
+package a5_method_reference;
 
 public class LambdasDemo {
 	

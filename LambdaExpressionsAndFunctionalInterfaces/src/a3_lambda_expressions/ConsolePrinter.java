@@ -1,4 +1,4 @@
-package lambda_expressions_3;
+package a3_lambda_expressions;
 
 public class ConsolePrinter implements Printer {
 
