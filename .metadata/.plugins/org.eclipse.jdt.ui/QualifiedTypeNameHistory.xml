@@ -2,9 +2,23 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="iterable_interface_1.GenericList.ListIterator"/>
     <fullyQualifiedTypeName name="collections_2.CollectionsDemo"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="List_3.ListDemo"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="comparator_interface_5.EmailComparator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="functional_interface_1.LambdasDemo"/>
+    <fullyQualifiedTypeName name="anonymous_inner_class_2.Printer"/>
+    <fullyQualifiedTypeName name="functional_interface_1.ConsolePrinter"/>
 </qualifiedTypeNameHistroy>
