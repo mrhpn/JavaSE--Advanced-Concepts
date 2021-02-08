@@ -19,5 +19,6 @@ public class LambdasDemo {
 		Supplier<Double> getRandom = () -> Math.random();
 		var random = getRandom.get(); // When we call supplier interface, we should call like this.
 		System.out.println(random);
+		
 	}
 }
