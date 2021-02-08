@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="collections_2.CollectionsDemo"/>
     <fullyQualifiedTypeName name="List_3.ListDemo"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="comparator_interface_5.EmailComparator"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
@@ -21,4 +20,8 @@
     <fullyQualifiedTypeName name="functional_interface_1.LambdasDemo"/>
     <fullyQualifiedTypeName name="anonymous_inner_class_2.Printer"/>
     <fullyQualifiedTypeName name="functional_interface_1.ConsolePrinter"/>
+    <fullyQualifiedTypeName name="method_reference_5.LambdasDemo"/>
+    <fullyQualifiedTypeName name="a7_consumer_interface.LambdasDemo"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 </qualifiedTypeNameHistroy>
