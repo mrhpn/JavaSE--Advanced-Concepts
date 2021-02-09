@@ -24,4 +24,11 @@
     <fullyQualifiedTypeName name="a7_consumer_interface.LambdasDemo"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="a9_supplier_interface.LambdasDemo"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="b1_functional_interface.LambdasDemo"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
 </qualifiedTypeNameHistroy>

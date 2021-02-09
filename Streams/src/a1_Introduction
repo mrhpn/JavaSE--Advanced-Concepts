@@ -1,0 +1,11 @@
+Streams
+-----
+allows us to process the collection of data in a declarative way (which is like how we write sql queries). 
+
+1) Overview of streams
+2) Mapping
+3) Filtering
+4) Slicing
+5) Sorting
+6) Reducing
+7) Collectors
