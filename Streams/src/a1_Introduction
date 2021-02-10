@@ -1,6 +1,6 @@
 Streams
 -----
-allows us to process the collection of data in a declarative way (which is like how we write sql queries). 
+allows us to process the collection of data in a declarative or more specificially functional way (which is like how we write sql queries). 
 
 1) Overview of streams
 2) Mapping
