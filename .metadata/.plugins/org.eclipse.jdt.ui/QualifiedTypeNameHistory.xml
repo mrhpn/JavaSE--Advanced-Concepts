@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="functional_interface_1.ConsolePrinter"/>
     <fullyQualifiedTypeName name="method_reference_5.LambdasDemo"/>
     <fullyQualifiedTypeName name="a7_consumer_interface.LambdasDemo"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="a9_supplier_interface.LambdasDemo"/>
     <fullyQualifiedTypeName name="java.util.function.Supplier"/>
@@ -31,4 +30,5 @@
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
