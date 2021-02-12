@@ -1,4 +1,4 @@
-package b2_reducers;
+package b2_sample_reducers;
 
 public class Main {
 

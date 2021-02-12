@@ -1,10 +1,10 @@
-package b2_reducers;
+package b2_sample_reducers;
 
 import java.util.Comparator;
 import java.util.List;
 
 /**
- * Reducers (Terminal Operations)
+ * Simple Reducers (Terminal Operations)
  * -----
  * Reducers can reduce a stream of objects into a single object/value. All of them are terminal operations.
  * 1) count()
@@ -47,7 +47,7 @@ public class StreamDemo {
 		/**----- End Matchers -----**/
 		
 		/**----- Finders -----**/
-		var result3 = movies.stream().findFirst().get(); // findFirst() returns Optional<?> which is prevention of nullPointerException.
+		var result3 = movies.stream().findFirst().get(); // findFirst() returns Optional<?> which means it may or may not have a value and so prevention of nullPointerException.
 		System.out.println(result3.getTitle()); // Output: a
 		
 		var result4 = movies.stream().findAny().get(); // returns any elements from the stream
@@ -58,11 +58,6 @@ public class StreamDemo {
 				.stream()
 				.max(Comparator.comparing(Movie::getLikes))
 				.get();
-		System.out.println(result5.getTitle()); // Output: c
-		
-		
-		
-		
-		
+		System.out.println(result5.getTitle());	
 	}
 }
