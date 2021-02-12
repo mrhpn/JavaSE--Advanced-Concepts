@@ -18,6 +18,6 @@ public class StreamDemo {
 		movies.stream()
 			  .map(Movie::getLikes)
 			  .distinct()
-			  .forEach(m -> System.out.println(m)); // Output: 10 20 30
+			  .forEach(System.out::println); // Output: 10 20 30
 	}
 }
